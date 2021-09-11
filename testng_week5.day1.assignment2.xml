@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="ServiceNow-Testcases-Week5.Day1.Assignment2-Sequential">
+		<classes>
+			<class
+				name="assignments.week5.day1.assignment2.CreateNewIncident" />
+			<class
+				name="assignments.week5.day1.assignment2.UpdateExistingIncident" />
+			<class name="assignments.week5.day1.assignment2.AssignIncident" />
+			<class name="assignments.week5.day1.assignment2.DeleteIncident" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
